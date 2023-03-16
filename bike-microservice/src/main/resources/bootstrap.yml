@@ -6,9 +6,3 @@ spring:
     config:
       enabled: true
       uri: http://localhost:8081
-
-spring.datasource:
-  driverClassName: com.mysql.cj.jdbc.Driver
-  url: jdbc:mysql://localhost:3306/microservicios
-  username: root
-  password:
