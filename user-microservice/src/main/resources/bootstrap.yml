@@ -1,0 +1,18 @@
+
+spring:
+  application:
+  name: user-service
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8081
+server:
+  contextPath: /user-service
+
+spring.datasource:
+  driverClassName: com.mysql.cj.jdbc.Driver
+  url: jdbc:mysql://localhost:3306/microservicios
+  username: root
+  password:
+
+
