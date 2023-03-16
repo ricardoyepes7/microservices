@@ -1,5 +1,6 @@
 server:
   port: 8081
+
 spring:
   cloud:
     config:
@@ -8,5 +9,6 @@ spring:
           default-label: master
           uri: https://github.com/ricardoyepes7/microservices
           search-paths: config-data
+
   application:
     name: config-service
