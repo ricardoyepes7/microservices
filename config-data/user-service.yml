@@ -1,6 +1,5 @@
 server: 
   port: ${PORT:${SERVER_PORT:0}}
-  contextPath: /user-service
 eureka:
   client:
     fetch-registry: true
